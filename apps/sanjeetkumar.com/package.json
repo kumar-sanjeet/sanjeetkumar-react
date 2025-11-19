@@ -11,8 +11,7 @@
     "lint:types": "tsc --noEmit",
     "lint:style": "prettier --check .",
     "analyze": "cross-env ANALYZE=true pnpm build",
-    "postbuild": "next-sitemap",
-    "db:generate": "prisma generate"
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.2",
@@ -21,7 +20,6 @@
     "@mdx-js/react": "^2.2.1",
     "@next/bundle-analyzer": "^13.1.1",
     "@next/mdx": "^13.1.1",
-    "@prisma/client": "^4.8.1",
     "@vercel/og": "^0.6.3",
     "axios": "^1.7.0",
     "clsx": "^2.1.1",
@@ -56,12 +54,11 @@
     "next-sitemap": "^3.1.43",
     "postcss": "^8.4.20",
     "postcss-import": "^15.1.0",
-    "prisma": "^4.8.1",
     "tailwindcss": "^3.2.4",
     "tsconfig": "workspace:*",
     "typescript": "^4.9.4"
   },
-  "packageManager": "pnpm@9.150.0",
+  "packageManager": "pnpm@9.15.0",
   "engines": {
     "node": ">=22.14.0"
   }
